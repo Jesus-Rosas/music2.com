@@ -17,30 +17,30 @@
   <div class="container">
     <div class="row"> 
       <!-- item -->
-      <div class="col-md-3 text-center"> <i class="circle"><img src="images/clock.png" alt="" /></i>
-        <h3>PIANO</h3>
-        <p>Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer elit imperdiet congue.</p>
+      <div class="col-md-3 text-center"> <i class="circle"><img src="<?php echo PATH; ?>images/artist/adele.jpg" alt="" /></i>
+        <h3>Adele</h3>
+        <p>Nuevo</p>
       </div>
       <!-- end: --> 
       
       <!-- item -->
-      <div class="col-md-3 text-center"><i class="circle"> <img src="images/eye.png" alt="" /></i>
-        <h3>GUITAR</h3>
-        <p>Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer elit imperdiet congue.</p>
+      <div class="col-md-3 text-center"><i class="circle"> <img src="<?php echo PATH; ?>images/artist/Avril.jpg" alt="" /></i>
+        <h3>Avril</h3>
+        <p>Las canciones más inéditas del momento</p>
       </div>
       <!-- end: --> 
       
       <!-- item -->
-      <div class="col-md-3 text-center"><i class="circle"> <img src="images/cart.png" alt="" /></i>
-        <h3>VIOLIN</h3>
-        <p>Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer ultricies sed elit impe.</p>
+      <div class="col-md-3 text-center"><i class="circle"> <img src="<?php echo PATH; ?>images/artist/dld.jpg" alt="" /></i>
+        <h3>DLD</h3>
+        <p>Una banda que vale por los éxitos más candentes</p>
       </div>
       <!-- end: --> 
       
       <!-- item -->
-      <div class="col-md-3 text-center"><i class="circle"> <img src="images/heart.png" alt="" /></i>
-        <h3>CLARINET</h3>
-        <p>Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer elit imperdiet conempus.</p>
+      <div class="col-md-3 text-center"><i class="circle"> <img src="<?php echo PATH; ?>images/artist/ha ash.png" alt="" /></i>
+        <h3>Ha ash</h3>
+        <p>Dúo Pop-Rock Latino con una gran trayectoria</p>
       </div>
       <!-- end:--> 
     </div>

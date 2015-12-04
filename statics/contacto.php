@@ -21,7 +21,7 @@
             </div>
             <div class="form-group">
               <label for="comments">Comentarios</label>
-              <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
+              <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Ingresa tu comentario"></textarea>
               <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit">Enviar</button>
             </div>
             <div class="result"></div>
