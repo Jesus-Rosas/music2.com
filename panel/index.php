@@ -30,7 +30,7 @@ include 'models.php';
 						<th>Album</th>
 						<th>Artista</th>
 						<th>Duracion</th>
-						<th>Tamaño</th>
+						<th>Tama&ntilde;o</th>
 						<th></th>
 					</tr>
 					<?php foreach (Track::all(1000) as $track):?>
