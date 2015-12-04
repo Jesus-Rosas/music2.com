@@ -32,6 +32,12 @@ body {
  color: #fff;
  background: #A43E89;
 }
+div.buttons-crud
+{
+	margin: 0 auto;
+	display: block;
+	width: 30%;
+}
 p {
 	color: #858585;
 	margin: 0 0 1em !important;

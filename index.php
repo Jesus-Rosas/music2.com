@@ -26,17 +26,14 @@
       case 'Inicio':
         include('statics/home.php');
         include('statics/acerca.php');
-        include('statics/planes.php');
-        include('statics/clientes.php');
+        #include('statics/planes.php');
+        #include('statics/clientes.php');
         include('statics/trabajos.php');
-        include('statics/equipo.php');
+        #include('statics/equipo.php');
         include('statics/contacto.php');
-
-
         break;
     }
    ?>
-<?php include('statics/footer.php'); ?>
 <?php include('statics/copy.php'); ?>
 <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a> 
 <?php include('statics/scripts.php'); ?>

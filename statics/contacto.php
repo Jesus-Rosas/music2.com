@@ -4,25 +4,25 @@
       <div class="row">
         <div class="heading text-center"> 
           <!-- Heading -->
-          <h2>Contact Us</h2>
-          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+          <h2>Contáctanos</h2>
+          <p>Si quieres que tu música aparezca en nuestras categorias, contáctanos</p>
         </div>
       </div>
       <div class="row mrgn30">
         <form method="post" action="" id="contactfrm" role="form">
           <div class="col-sm-12">
             <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)">
+              <label for="name">Nombre</label>
+              <input type="text" class="form-control" name="name" id="name" placeholder="Ingresa tu nombre" title="Porfavor ingresa tu nombre (Más de 2 carácteres)">
             </div>
             <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address">
+              <label for="email">Correo Electrónico</label>
+              <input type="email" class="form-control" name="email" id="email" placeholder="Ingresa tu e-mail" title="Porfavor ingresa una dirección válida">
             </div>
             <div class="form-group">
-              <label for="comments">Comments</label>
+              <label for="comments">Comentarios</label>
               <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
-              <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit">Submit</button>
+              <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit">Enviar</button>
             </div>
             <div class="result"></div>
           </div>

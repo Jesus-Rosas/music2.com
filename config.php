@@ -11,8 +11,8 @@ else
 {
     define("ERRORTRACE",TRUE);
         if(ERRORTRACE) {error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);}
-	define('PATH', "http://localhost/consultorio/");
-	define("ABSPATH", $_SERVER['DOCUMENT_ROOT'] .'/consultorio/');
+	define('PATH', "http://localhost/music2.com/");
+	define("ABSPATH", $_SERVER['DOCUMENT_ROOT'] .'/music2.com/');
 }
 
-define("AUTHOR", "Brenda Bentolero");
+define("AUTHOR", "Brenda Ventolero");

@@ -10,7 +10,7 @@
     </div>
   </div>
   <div class="container hero-text2">
-  <h3>Lorem ipsum dolor sit amet, ea eum labitur scsstie percipitoleat<br/> fabulas complectitur deterruisset at pro</h3>
+  <h3>Nuevos artistas todo el tiempo con una amplia gama de generos musicales.</h3>
   </div>
 </section>
 <section id="services" class="page-section colord">
