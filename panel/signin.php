@@ -23,13 +23,13 @@ if(isset($user) && isset($pass) != "")
 {
 	if($user == "admin@admin.com" && $pass == "123456")
 	{
-		echo "Iniciaste sesion";
 		sleep(1);
-		header('Location: index.php');
+		header('Location: admin.php');
 	}
 	else
 	{
-		echo "Usuario incorrecto";
+		sleep(1);
+		header('Location: index.php');
 	}
 }
  ?>

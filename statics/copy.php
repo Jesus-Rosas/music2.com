@@ -8,7 +8,7 @@
       	</p>
       </div>
       <div class="col-md-6">
-      	<p><a href="<?php echo PATH; ?>panel" target="_blank">Panel de Administración</a></p>
+      	<p><a href="<?php echo PATH; ?>panel/" target="_blank">Panel de Administración</a></p>
       </div>
     </div>
     <!-- / .row --> 
