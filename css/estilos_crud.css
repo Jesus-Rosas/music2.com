@@ -1,0 +1,40 @@
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+ footer {
+    flex: 1 0 auto;
+  }
+.buttons
+{
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+}
+.card-panel
+{
+    margin: -0.5rem 0 1rem 0;
+    padding: 10px;
+}
+.text-center{
+    text-align: center;
+    font-size: 2em;
+}
+.box{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 100px;
+}
+.img-size
+{
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.back-footer
+{
+    background-color:  #f2f2f2;
+}

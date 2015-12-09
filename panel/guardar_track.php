@@ -9,13 +9,13 @@ if(isset($_POST['id'])){
 	$a->Bytes = $_POST['bytes'];
 	$a->UnitPrice = $_POST['unitprice'];
 	if($a->save()){
-		header("Location: "."track.php?id=".$a->TrackId);
+		header("Location: "."../index.php?id=".$a->TrackId);
 	}
 }
 else{
 	$a = Track::create($_POST['name'],$_POST['composer'],$_POST['milliseconds'],$_POST['bytes'],$_POST['unitprice'],intval($_POST['album']));
 	if($a->save()){
-		header("Location: "."track.php?id=".$a->TrackId);
+		header("Location: "."../index.php?id=".$a->TrackId);
 	}
 }
 ?>

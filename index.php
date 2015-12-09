@@ -1,7 +1,10 @@
 <?php 
   include('config.php');
+  include ('panel/models.php');
+  $track = isset($_GET['id'])? Track::find($_GET['id']) : Track::create(null,null,0,0,0,1);
+  $artist = isset($_GET['id'])? Artist::find($_GET['id']) : Artist::create(null);
+  $album = isset($_GET['id'])? Album::find($_GET['id']) : Album::create(null,1);
  ?>
-
 <!DOCTYPE html>
 <!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
@@ -19,23 +22,14 @@
 <?php include('statics/metas.php'); ?>
 </head>
 <body>
-  <?php include('statics/header.php'); ?>
-
   <?php 
     switch ($_GET['a']) {
       case 'Inicio':
-        include('statics/home.php');
-        include('statics/acerca.php');
-        #include('statics/planes.php');
-        #include('statics/clientes.php');
-        include('statics/trabajos.php');
-        #include('statics/equipo.php');
-        include('statics/contacto.php');
+        include('panel/admin.php');
         break;
     }
    ?>
-<?php include('statics/copy.php'); ?>
-<a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a> 
+<?php include 'footer.php';?>
 <?php include('statics/scripts.php'); ?>
 </body>
 </html>

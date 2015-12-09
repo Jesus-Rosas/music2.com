@@ -23,7 +23,7 @@ class Track{
 			$this->updated_at=$i;
 	}
 	
-	public static function all($limit = 50, $offset = 0, $OB = "TrackId", $OD = "ASC"){
+	public static function all($limit = 100, $offset = 0, $OB = "TrackId", $OD = "ASC"){
 		return self::get(null, null, $limit, $offset, $OB, $OD);
 	}
 	
